@@ -11,7 +11,9 @@ import SwiftUI
 struct SocialNetworkBlogServiceApp: App {
     var body: some Scene {
         WindowGroup {
-            FeedView()
+//            NavigationView {
+                ContentView()
+//            }
         }
     }
 }
