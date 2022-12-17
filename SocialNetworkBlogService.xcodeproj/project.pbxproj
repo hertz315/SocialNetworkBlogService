@@ -12,6 +12,7 @@
 		E073A22A294E054A00093F0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E073A229294E054A00093F0A /* Assets.xcassets */; };
 		E073A22D294E054A00093F0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E073A22C294E054A00093F0A /* Preview Assets.xcassets */; };
 		E073A23C294E064800093F0A /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E073A23B294E064800093F0A /* FeedView.swift */; };
+		E073A23F294E07B500093F0A /* TweetRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E073A23E294E07B500093F0A /* TweetRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		E073A229294E054A00093F0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E073A22C294E054A00093F0A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E073A23B294E064800093F0A /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		E073A23E294E07B500093F0A /* TweetRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 		E073A239294E05CC00093F0A /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				E073A23D294E078600093F0A /* Tweets */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -132,6 +135,14 @@
 				E073A238294E05BB00093F0A /* View */,
 			);
 			path = Feed;
+			sourceTree = "<group>";
+		};
+		E073A23D294E078600093F0A /* Tweets */ = {
+			isa = PBXGroup;
+			children = (
+				E073A23E294E07B500093F0A /* TweetRowView.swift */,
+			);
+			path = Tweets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E073A228294E054900093F0A /* ContentView.swift in Sources */,
+				E073A23F294E07B500093F0A /* TweetRowView.swift in Sources */,
 				E073A23C294E064800093F0A /* FeedView.swift in Sources */,
 				E073A226294E054900093F0A /* SocialNetworkBlogServiceApp.swift in Sources */,
 			);
